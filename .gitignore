@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Large model weights (tracked via Git LFS or shared manually)
+**/*.pth
+
+# Flutter build
+mvats/build/
+mvats/.dart_tool/
+mvats/.flutter-plugins
+mvats/.flutter-plugins-dependencies
+
+# Node.js
+Backend/node_modules/
+Backend/uploads/
+Backend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Misc
+*.tmp
+*.bak
